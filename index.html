@@ -174,9 +174,9 @@ function calcular() {
 
   // -------------------------
   // 3) Desconto simplificado (interpretei como 25% da primeira faixa do IRRF)
-  //    (primeira faixa usada: 2259.20 conforme lógica de cálculo abaixo)
+  //    (primeira faixa usada: 2428.80 conforme lógica de cálculo abaixo)
   // -------------------------
-  const primeiraFaixaIRRF = 2259.20; // conforme o código original
+  const primeiraFaixaIRRF = 2428.80; // conforme o código original
   const descontoSimplificado = primeiraFaixaIRRF * 0.25; // 25% da primeira faixa
 
   // -------------------------
@@ -204,7 +204,7 @@ function calcular() {
   // -------------------------
   // tabela: limite superior, aliquota, parcela a deduzir
   const tabelaIRRF = [
-    { limite: 2259.20, aliquota: 0.0, parcela: 0.00 },
+    { limite: 2428.80, aliquota: 0.0, parcela: 0.00 },
     { limite: 2826.65, aliquota: 0.075, parcela: 182.16 },
     { limite: 3751.05, aliquota: 0.15, parcela: 394.16 },
     { limite: 4664.68, aliquota: 0.225, parcela: 675.49 },
@@ -240,3 +240,4 @@ function calcular() {
 </script>
 </body>
 </html>
+
